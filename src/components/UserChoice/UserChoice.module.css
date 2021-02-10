@@ -1,0 +1,53 @@
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: inset 0 -5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.rock {
+  background-image: var(--rock-gradient);
+  grid-area: rock;
+  justify-self: center;
+  align-self: flex-end;
+}
+
+.paper {
+  background-image: var(--paper-gradient);
+  grid-area: paper;
+  justify-self: start;
+}
+
+.scissors {
+  background-image: var(--scissors-gradient);
+  grid-area: scissors;
+  justify-self: end;
+}
+
+.icon {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: scale-down;
+  object-position: center;
+  background-color: white;
+  box-shadow: inset 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  width: 320px;
+  margin: 10vh auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 135px);
+  grid-template-areas: "paper scissors" "rock rock";
+  background-image: url("./bg-triangle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
