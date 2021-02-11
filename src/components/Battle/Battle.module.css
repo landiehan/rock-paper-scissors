@@ -1,0 +1,40 @@
+.battle {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 16rem 30rem;
+  padding-top: 8rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.choice {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choice p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.houseChoiceContainer {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: var(--dark-text);
+  border: 1.5rem solid transparent;
+}
+
+.youPicked {
+  background-image: var(--radial-gradient);
+}

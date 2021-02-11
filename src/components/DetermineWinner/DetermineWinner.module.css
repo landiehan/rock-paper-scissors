@@ -1,0 +1,25 @@
+.result {
+  margin: 6rem auto 0;
+}
+
+.result p {
+  font-size: 5.6rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.playAgain {
+  border: none;
+  background-color: white;
+  padding: 1.2rem 6rem;
+  border-radius: 0.8rem;
+  color: var(--dark-text);
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-family: inherit;
+  letter-spacing: 2px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Playground from "../Playground/Playground";
 import Scoreboard from "../Scoreboard/Scoreboard";
 import "./App.css";
